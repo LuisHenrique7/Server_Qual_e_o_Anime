@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/predict",
+      "dest": "/app.py"
+    }
+  ],
+  "env": {
+    "HUGGINGFACE_MODEL_ID": "my_h5_model.h5"
+  },
+  "files": [
+    "my_h5_model.h5"
+  ]
+}

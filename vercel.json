@@ -14,8 +14,5 @@
   ],
   "env": {
     "HUGGINGFACE_MODEL_ID": "my_h5_model.h5"
-  },
-  "files": [
-    "my_h5_model.h5"
-  ]
+  }
 }
